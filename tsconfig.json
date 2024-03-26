@@ -10,6 +10,9 @@
     "strict": true,
     "skipLibCheck": true
   },
+  "ts-node":{
+    "files": true
+  },
   "include": [
     "./*.js",
     "src/**/*.ts",
@@ -17,8 +20,5 @@
     "test/**/*.ts",
     "src/types/CustomError.ts",
     "src/types"
-  ],
-  "ts-node":{
-    "files":true
-  }
+  ]
 }

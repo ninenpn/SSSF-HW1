@@ -9,6 +9,14 @@ type User = {
 type Cat = {
   // TODO: create a cat type
   // owner should be a User or a number
+  cat_id: number;
+  cat_name: string;
+  weight: number;
+  filename: string;
+  birthdate: string;
+  lat: number;
+  lng: number;
+  owner: User | number;
 };
 
 export {Cat};
